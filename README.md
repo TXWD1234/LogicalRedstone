@@ -39,6 +39,7 @@ The redstone dust, however, is a special component that is designed to forward t
 
 ## Redstone Dust
 *The most versatile component in the specification.*
+There are 4 variation of this component.
 
 ## Redstone Repeater
 ## Redstone Block
