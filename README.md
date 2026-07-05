@@ -9,7 +9,7 @@ LogicalRedstone is a modular standard of components that can be assembled dynami
 
 # Credits
 **Contributers:**
-- [TX_Jerry](https://github.com/TXWD1234)`
+- [TX_Jerry](https://github.com/TXWD1234)
 - [Coolerzanu](https://github.com/coolerzanu)
 - [nathab32](https://github.com/nathab32)
 
