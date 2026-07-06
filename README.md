@@ -7,6 +7,11 @@ LogicalRedstone is a modular standard of components that can be assembled dynami
 
 ![ZinePage](https://github.com/TXWD1234/FalloutProject/raw/main/docs/zine-page/ZinePage.png)
 
+# Demo
+
+
+
+
 # Credits
 **Contributers:**
 - [TX_Jerry](https://github.com/TXWD1234)
@@ -37,7 +42,18 @@ At one side of each component *except redstone dust*, a laser emitter is placed 
 At the opposite side of the each component, a light sensor is also placed inside the component, which detects the light emitted by the lazer emitter of other components, and forward the information (0 or 1) contained in that light into the component.
 The redstone dust, however, is a special component that is designed to forward the light signal, or change the direction of the light. It is used to connect components.+
 
-## Redstone Dust
+## Symbol Library
+A symbol library in KiCad is provided along with the specification. It's purpose is to make the development of circuits made with redstone components easier.
+The symbol library includes all components in the specification expect redstone dust, as they are just wires.
+The appearance and registered name are showed below:
+
+![picture](https://github.com/TXWD1234/LogicalRedstone/docs/readme-assets/component-circuit/symbols.png)
+
+Library file path: */library/component-symbols.kicad_sym*
+
+## Components
+
+### Redstone Dust
 *There's no algorithm automaticly changing the dust type in real life, you have to do it yourself.*  
 The redstone dust acts like wires, who connects other components together.
 It is the most versatile component in the specification. There are 6 variation of this component, including:
@@ -51,7 +67,7 @@ It is the most versatile component in the specification. There are 6 variation o
 
 Inside a redstone dust block the light signal is transfered via fibre optic cables. They also glows, making the redstone dust also glow.
 
-## Redstone Repeater
+### Redstone Repeater
 *This is not how actually repeaters in minecraft behaves...*  
 A redstone repeater acts like a transistor.
 It has 2 input side and 1 output side:
@@ -64,26 +80,33 @@ It has 2 input side and 1 output side:
 
 *Since in this case we don't need to worry about voltage like MOSFET, this "transistor" is basically an AND gate.*
 
-## Redstone Block
+### Redstone Block
 *A redstone block is made out of 9 redstone dust, and the redstone dust is made out of fiber optics, ~~so fiber optics magically generate power.~~*  
 A redstone block provides a constant signal of 1 (High).
 It can be used as a constant, or a quick testing parameter of a circuit.
 
 *Why does this thing even exist? It just burning battery constantly.*
 
-## Redstone Button
+### Redstone Button
 *Or a pressure plate? They have no difference.*  
 A redstone button outputs signal of 1 (High) when pressed.
 It can be used for a user interface.
 
-## Redstone Torch
+### Redstone Torch
 *I wonder why power can turn a torch off. Maybe the torch is hiding a NOT gate inside of it? You never know~*  
 A redstone torch outputs a constant signal of 1 (High) when nothing is powering it.
 But if it received a signal of 1, it will be turned "off" and output a signal of 0.
 
 *I wonder if you can use this as a NOT gate?*
 
-## Redstone Lamp
+### Redstone Lamp
 *It's so funny that a lamp exists while the redstone itself already glows.*  
 A redstone lamp glows when it receives a signal of 1 (High).
 It can be used to make user interface, or even display graphics when stacked in array.
+
+# Gallery
+***Logic gates made with redstone components:***
+![picture](https://github.com/TXWD1234/LogicalRedstone/docs/readme-assets/demo-circuit/logic-gates.png)
+
+***Minecraft block diagram for the half adder:***
+![picture](https://github.com/TXWD1234/LogicalRedstone/docs/readme-assets/demo-diagram/demo-diagram.png)
