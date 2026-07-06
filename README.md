@@ -27,7 +27,7 @@ There are 2 portion of manufacturing the LogicalRedstone.
 
 ### 3D Shell
 *The exported 3d stl files can be found for each component here: `/components/<component-name>/CAD/`.*
-*The onshape link of everything is: `<onshape-link>`.*
+*The onshape link of everything is: `https://cad.onshape.com/documents/205be14658acf1e2d17db0f8/w/b440bc3b616cb68e740a4578/e/6cf53d2f83e9f1d85365554f`.*
 
 The 3d shell is deisgned via onshape for the user to download and print on a FDM or similar addative manufacturing service. Our reccomended method would be to use FDM 3d printing. Upload the desired file into a slicer service ensuring no additional supports need to be generated. Print with less than 15% infill and a rectilinear profile. If using clear or unique material besides PLA ensure to adjust parameters accordingly. If your printer's tolerance is poor adjust for the difference using the stl files. 
 
