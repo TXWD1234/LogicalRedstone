@@ -4,6 +4,7 @@
 LogicalRedstone is a modular standard of components that can be assembled dynamically and perform logical operations. The appearance and feature of each component is inspired from the game [Minecraft](https://www.minecraft.net/).
 
 *This project is made for the hackathon event [Fallout](https://fallout.hackclub.com) hosted by [Hackclub](https://www.hackclub.com).*
+*Made in collaboration by Prakshab.A, Nathan.C, and Jerry.L*
 
 ![ZinePage](https://github.com/TXWD1234/LogicalRedstone/raw/main/docs/zine-page/ZinePage.png)
 
