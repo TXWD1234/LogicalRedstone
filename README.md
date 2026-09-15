@@ -1,7 +1,7 @@
 # **LogicalRedstone**
 **// Copyright (c) 2026 LogicalRedstone. Licensed under the MIT License.**
 
-LogicalRedstone is a modular standard of components that can be assembled dynamicly and perform logical operations. The appearance and feature of each component is inspired from the game [Minecraft](https://www.minecraft.net/).
+LogicalRedstone is a modular standard of components that can be assembled dynamically and perform logical operations. The appearance and feature of each component is inspired from the game [Minecraft](https://www.minecraft.net/).
 
 *This project is made for the hackathon event [Fallout](https://fallout.hackclub.com) hosted by [Hackclub](https://www.hackclub.com).*
 
